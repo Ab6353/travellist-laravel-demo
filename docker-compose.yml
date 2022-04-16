@@ -1,7 +1,7 @@
 version: "3.7"
 services:
   app:
-    build:
+    build: .
       args:
         user: ashutosh
         uid: 1000
